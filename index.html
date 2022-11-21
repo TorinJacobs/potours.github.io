@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blueberries & Coconuts</title>
+    <link rel="icon" type="image/x-icon" href="https://thumbs.dreamstime.com/b/abstract-blueberries-palm-tree-abstract-blueberries-palm-tree-vector-logo-design-template-164863677.jpg>">
+    <link rel="stylesheet" href="treasurehunt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Blueberries & Coconuts</h1>
+    
+    <img src=https://images.unsplash.com/photo-1594002348772-bc0cb57ade8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Immunity" height="200px"><img src="https://images.unsplash.com/photo-1597636319015-1fce74db8798?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Death Coconut" height="200px"/>
+    <br>
+    <h2>Welcome to our game!</h2>
+    <ul>
+        <li> Click the boxes to reveal what's on the map</li>
+        <li>If you click on the coconut, you die.</li>
+        <li>If you click on the blueberry, you live forever... you're immortal!</li>
+     </ul>
+    </p>
+
+    <div id="gameboard">
+        <table border=5 height="200px">
+        <tr>
+            <td onclick="emojiMaker(0)" id=0>X</td>
+            <td onclick="emojiMaker(1)" id=1>X</td>
+            <td onclick="emojiMaker(2)" id=2>X</td>
+        </tr>
+        <tr>
+            <td onclick="emojiMaker(3)" id=3>X</td>
+            <td onclick="emojiMaker(4)" id=4>X</td>
+            <td onclick="emojiMaker(5)" id=5>X</td>
+        </tr>
+        <tr>
+            <td onclick="emojiMaker(6)" id=6>X</td>
+            <td onclick="emojiMaker(7)" id=7>X</td>
+            <td onclick="emojiMaker(8)" id=8>X</td>
+        </tr>
+        </table>
+    </div>
+    <button type="button" onclick="location.reload()">Restart Game</button>
+
+    <br>
+    <footer> &copy; Lauren & Torin | November 2022 <!-- adding a link to an external webpage --><a href="https://www.wikihow.com/Win-at-Life"target="_blank">How to win at life!</a>
+        <a href="#top">Top of Page</a>
+    <br>
+    <p>Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.
+    </p>
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js">
+    </script>
+</body>
+</html>
